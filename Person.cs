@@ -6,7 +6,6 @@ public class Person
     public string LastName;
     public int Age;
 
-    // Constructor with firstName, lastName, and age
     public Person(string firstName, string lastName, int age)
     {
         this.FirstName = firstName;
@@ -14,7 +13,6 @@ public class Person
         this.Age = age;
     }
 
-    // Overloaded constructor with only firstName and lastName
     public Person(string firstName, string lastName)
     {
         this.FirstName = firstName;
